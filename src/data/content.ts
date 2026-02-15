@@ -85,6 +85,12 @@ export const hosts = {
         'PhD in Psychology, MS in Health Services Research',
         'Professor at UC Irvine',
       ],
+      detailedDescription: [
+        'Sean Young, PhD, MS, is the Executive Director of the University of California Institute for Prediction Technology, the Center for Digital Behavior, a Medical School and Informatics Professor with the UCI Departments of Emergency Medicine and Informatics, and the #1 Wall Street Journal and International Best-Selling author of Stick With It.',
+        'I received my PhD in Psychology and Master\'s degree in Health Services Research from Stanford University, worked in technology and user behavior/human factors at NASA Ames Research Center and Cisco Systems, taught at the Stanford University Graduate School of Business, and have advised various companies and start-ups. I am an internationally-recognized speaker, having presented at forums such as the European Parliament, mHealth Conference, World Congress, as well as corporations, academic institutions, and organizations. I was a study committee member for the National Academies of Sciences, Engineering, and Medicine (NASEM) on STI prevention and control, and am currently a board member within NASEM\'s broader Division of Health and Medicine.',
+        'I study digital behavior and prediction technology, or how and why people use social media, mobile apps, and wearable devices. I help people and businesses apply this knowledge to predict what people will do in the future (in areas like health, medicine, politics, and business) and to change what they will do in the future.',
+        'I have a blog called BlackBoxPhd.com where I interview experts in areas related to behavior to teach people how to improve their lives and work, and have a podcast on Audible.com called Sean Young, PhD on this topic.',
+      ],
       imagePlaceholder: false,
     },
     {
