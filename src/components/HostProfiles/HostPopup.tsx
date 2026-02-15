@@ -9,8 +9,8 @@ interface HostPopupProps {
     id: string;
     name: string;
     role: string;
-    description: string[];
-    detailedDescription?: string[];
+    description: readonly string[];
+    detailedDescription?: readonly string[];
   };
   image?: string;
 }
