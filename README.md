@@ -54,3 +54,10 @@ All placeholder locations are marked with comments in the code.
 npm run build
 npm run preview   # Preview production build
 ```
+
+## Deploy to GitHub Pages
+
+1. Push the code to GitHub. The workflow will run automatically on push to `main`.
+2. In your repo: **Settings → Pages → Build and deployment**
+3. Set **Source** to **GitHub Actions** (instead of "Deploy from a branch").
+4. After the workflow completes, the site will be live at `https://<username>.github.io/INF172_DrYoung_Podcast_LandingPage/`.
