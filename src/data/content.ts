@@ -25,7 +25,7 @@ export const whoAreWe = {
     [
       { type: 'bold' as const, text: 'Young and Hungry' },
       { type: 'text' as const, text: ' is a podcast created by ' },
-      { type: 'bold' as const, text: 'Dr. Sean Young' },
+      { type: 'link' as const, text: 'Dr. Sean Young', href: 'https://seanyoungphd.com/' },
       { type: 'text' as const, text: ' and his son ' },
       { type: 'bold' as const, text: 'Maverick' },
       { type: 'text' as const, text: '. It aims to help parents, teachers, and curious minds understand and embrace artificial intelligence as a partner in learning—not a threat.' },
@@ -33,7 +33,9 @@ export const whoAreWe = {
     [
       { type: 'text' as const, text: 'The podcast is inspired by ' },
       { type: 'bold' as const, text: 'Dr. Young\'s' },
-      { type: 'text' as const, text: ' book "Stick With It" and his research on behavior change. We believe AI can empower families and educators when approached with curiosity and intention.' },
+      { type: 'text' as const, text: ' book ' },
+      { type: 'italic' as const, text: 'Stick With It' },
+      { type: 'text' as const, text: ' and his research on behavior change. We believe AI can empower families and educators when approached with curiosity and intention.' },
     ],
     [
       { type: 'text' as const, text: 'Our mission: to make AI accessible, human-centered, and fun. We explore real questions, share practical tips, and celebrate the joy of learning together.' },

@@ -27,8 +27,38 @@
   line-height: 1.7;
   color: var(--color-text-muted);
   margin: 0 0 var(--space-6);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .paragraph:last-child {
   margin-bottom: 0;
+}
+
+.paragraph span {
+  display: inline;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  font-weight: inherit;
+}
+
+.bookTitle {
+  font-style: italic;
+  font-weight: var(--font-bold);
+}
+
+.link {
+  color: var(--color-primary);
+  text-decoration: underline;
+  transition: color var(--transition-fast);
+}
+
+.link:hover {
+  color: var(--color-primary-hover);
+}
+
+.link strong {
+  font-weight: var(--font-bold);
+  color: inherit;
 }
