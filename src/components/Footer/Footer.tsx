@@ -1,6 +1,14 @@
 import { useState } from 'react';
 import { footer } from '../../data/content';
+import { InstagramIcon, TikTokIcon, XIcon, NewsletterIcon } from '../Header/icons';
 import styles from './Footer.module.css';
+
+const footerIconMap = {
+  instagram: InstagramIcon,
+  tiktok: TikTokIcon,
+  x: XIcon,
+  newsletter: NewsletterIcon,
+} as const;
 
 /**
  * Footer with social links, newsletter signup, and contact.
@@ -22,13 +30,22 @@ export function Footer() {
             <h3 className={styles.sectionTitle}>{footer.socialTitle}</h3>
             <nav aria-label="Social media links">
               <ul className={styles.socialList}>
-                {footer.social.map((item) => (
-                  <li key={item.id}>
-                    <a href={item.href} className={styles.socialLink}>
-                      {item.label}
-                    </a>
-                  </li>
-                ))}
+                {footer.social.map((item) => {
+                  const Icon = footerIconMap[item.id];
+                  return (
+                    <li key={item.id}>
+                      <a
+                        href={item.href}
+                        className={styles.socialLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Icon className={styles.socialIcon} />
+                        {item.label}
+                      </a>
+                    </li>
+                  );
+                })}
               </ul>
             </nav>
           </div>

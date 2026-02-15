@@ -22,6 +22,7 @@ export function Header() {
         <nav className={styles.nav} aria-label="Social links">
           {headerIcons.map((item) => {
             const IconComponent = iconMap[item.id];
+            const isExternal = item.href.startsWith('http');
             return (
               <a
                 key={item.id}
@@ -29,6 +30,10 @@ export function Header() {
                 className={styles.icon}
                 aria-label={item.label}
                 title={item.label}
+                {...(isExternal && {
+                  target: '_blank',
+                  rel: 'noopener noreferrer',
+                })}
               >
                 <IconComponent className={styles.iconSvg} />
               </a>

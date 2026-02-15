@@ -133,19 +133,19 @@ export const episodes = {
 } as const;
 
 export const headerIcons = [
-  { id: 'instagram', label: 'Instagram', href: '#' },
-  { id: 'tiktok', label: 'TikTok', href: '#' },
-  { id: 'x', label: 'X (Twitter)', href: '#' },
-  { id: 'newsletter', label: 'Newsletter', href: '#newsletter' },
+  { id: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/youngandhungryk_12' },
+  { id: 'tiktok', label: 'TikTok', href: 'https://www.tiktok.com/@youngandhungryk_12' },
+  { id: 'x', label: 'X (Twitter)', href: 'https://x.com/yandhshow' },
+  { id: 'newsletter', label: 'Newsletter', href: 'https://uci.co1.qualtrics.com/jfe/form/SV_3TMvAyg2SEOFsI6' },
 ] as const;
 
 export const footer = {
   socialTitle: 'Listen & Follow',
   social: [
-    { id: 'instagram', label: 'Instagram', href: '#' },
-    { id: 'tiktok', label: 'TikTok', href: '#' },
-    { id: 'x', label: 'X (Twitter)', href: '#' },
-    { id: 'newsletter', label: 'Newsletter', href: '#newsletter' },
+    { id: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/youngandhungryk_12' },
+    { id: 'tiktok', label: 'TikTok', href: 'https://www.tiktok.com/@youngandhungryk_12' },
+    { id: 'x', label: 'X (Twitter)', href: 'https://x.com/yandhshow' },
+    { id: 'newsletter', label: 'Newsletter', href: 'https://uci.co1.qualtrics.com/jfe/form/SV_3TMvAyg2SEOFsI6' },
   ],
   newsletter: {
     title: 'Stay in the loop',
