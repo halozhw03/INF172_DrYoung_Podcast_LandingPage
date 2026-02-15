@@ -118,11 +118,12 @@
 @media (max-width: 640px) {
   .hero {
     padding: 0;
-    background-size: 100% auto;
+    background-size: 150% auto;
+    background-position: center top;
   }
   
   .hero::before {
-    padding-top: 42.42%;
+    padding-top: 60%;
   }
   
   .container {
@@ -131,8 +132,8 @@
   
   .ctaBlock {
     max-width: 90%;
+    align-items: center;
   }
-
 
   .headline {
     font-size: var(--text-3xl);
@@ -141,12 +142,8 @@
   }
 
   .subheadline {
-    font-size: var(--text-base);
+    font-size: var(--text-lg);
     margin-bottom: var(--space-6);
     text-align: center;
-  }
-  
-  .ctaBlock {
-    align-items: center;
   }
 }
