@@ -14,7 +14,6 @@ export const hero = {
     'A family podcast exploring AI, curiosity, and the future of learning.',
   ctaText: 'Listen Now',
   ctaHref: '#episodes',
-  videoPlaceholder: true,
   /** Replace with actual hero illustration path */
   illustrationPlaceholder: true,
 } as const;
