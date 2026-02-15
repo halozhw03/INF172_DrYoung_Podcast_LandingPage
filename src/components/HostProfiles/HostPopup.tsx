@@ -44,6 +44,21 @@ export function HostPopup({ isOpen, onClose, profile, image }: HostPopupProps) {
     );
   }, [onClose]);
 
+  // Disable body scroll when popup is open
+  useEffect(() => {
+    if (isOpen) {
+      // Save current overflow value
+      const originalOverflow = document.body.style.overflow;
+      // Disable body scroll
+      document.body.style.overflow = 'hidden';
+      
+      return () => {
+        // Restore original overflow value
+        document.body.style.overflow = originalOverflow;
+      };
+    }
+  }, [isOpen]);
+
   useEffect(() => {
     if (!isOpen) return;
 
