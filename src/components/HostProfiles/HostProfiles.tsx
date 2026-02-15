@@ -60,7 +60,7 @@ export function HostProfiles() {
                 <h3 id={`host-name-${profile.id}`} className={styles.name}>
                   {profile.name}
                 </h3>
-                <p className={`${styles.role} ${styles[`role${profile.id}`]}`}>
+                <p className={styles.role}>
                   {profile.role}
                 </p>
                 <ul className={styles.description}>

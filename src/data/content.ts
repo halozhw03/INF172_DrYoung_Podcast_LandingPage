@@ -11,7 +11,7 @@ export const site = {
 export const hero = {
   headline: 'Shall We Coexist?',
   subheadline:
-    'A father-son podcast exploring AI, curiosity, and the future of learning.',
+    'A family podcast exploring AI, curiosity, and the future of learning.',
   ctaText: 'Listen Now',
   ctaHref: '#episodes',
   videoPlaceholder: true,
@@ -24,21 +24,11 @@ export const whoAreWe = {
   paragraphs: [
     [
       { type: 'bold' as const, text: 'Young and Hungry' },
-      { type: 'text' as const, text: ' is a podcast created by ' },
-      { type: 'link' as const, text: 'Dr. Sean Young', href: 'https://seanyoungphd.com/' },
-      { type: 'text' as const, text: ' and his son ' },
-      { type: 'bold' as const, text: 'Maverick' },
-      { type: 'text' as const, text: '. It aims to help parents, teachers, and curious minds understand and embrace artificial intelligence as a partner in learning—not a threat.' },
-    ],
-    [
-      { type: 'text' as const, text: 'The podcast is inspired by ' },
-      { type: 'bold' as const, text: 'Dr. Young\'s' },
-      { type: 'text' as const, text: ' book ' },
+      { type: 'text' as const, text: ' is a podcast created to help people develop the psychology and practical tools needed to work with AI today in preparation for the future. The podcast draws from ' },
+      { type: 'link' as const, text: 'Dr. Young', href: 'https://seanyoungphd.com/' },
+      { type: 'text' as const, text: '\'s book ' },
       { type: 'italic' as const, text: 'Stick With It' },
-      { type: 'text' as const, text: ' and his research on behavior change. We believe AI can empower families and educators when approached with curiosity and intention.' },
-    ],
-    [
-      { type: 'text' as const, text: 'Our mission: to make AI accessible, human-centered, and fun. We explore real questions, share practical tips, and celebrate the joy of learning together.' },
+      { type: 'text' as const, text: ', which highlights persistence and adaptability as essential skills for navigating uncertainty in an increasingly AI-driven world. While many people fear that AI will take over their jobs, the podcast promotes a mindset that encourages individuals to see AI as a co-worker or tool rather than a threat.' },
     ],
   ],
 } as const;
@@ -106,7 +96,7 @@ export const hosts = {
     {
       id: 'melody',
       name: 'Melody',
-      role: 'Guest',
+      role: 'Co-host',
       description: [
         "Dr. Young's daughter",
         'Loves stories that spark imagination and inspiration',
