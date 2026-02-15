@@ -1,17 +1,16 @@
 import { site, headerIcons } from '../../data/content';
 import logoImage from '../../assets/Young&Hungary_Logo.webp';
-import { InstagramIcon, TikTokIcon, XIcon, NewsletterIcon } from './icons';
+import { InstagramIcon, TikTokIcon, XIcon } from './icons';
 import styles from './Header.module.css';
 
 const iconMap = {
   instagram: InstagramIcon,
   tiktok: TikTokIcon,
   x: XIcon,
-  newsletter: NewsletterIcon,
 } as const;
 
 /**
- * Header / top bar: title left, social icons right (Instagram, TikTok, X, Newsletter).
+ * Header / top bar: title left, social icons right (Instagram, TikTok, X).
  */
 export function Header() {
   return (

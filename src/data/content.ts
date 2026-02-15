@@ -136,7 +136,6 @@ export const headerIcons = [
   { id: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/youngandhungryk_12' },
   { id: 'tiktok', label: 'TikTok', href: 'https://www.tiktok.com/@youngandhungryk_12' },
   { id: 'x', label: 'X (Twitter)', href: 'https://x.com/yandhshow' },
-  { id: 'newsletter', label: 'Newsletter', href: 'https://uci.co1.qualtrics.com/jfe/form/SV_3TMvAyg2SEOFsI6' },
 ] as const;
 
 export const footer = {
@@ -151,10 +150,11 @@ export const footer = {
     title: 'Stay in the loop',
     description: 'Get episode updates and AI tips for parents and teachers.',
     placeholder: 'your@email.com',
-    ctaText: 'Subscribe',
+    ctaText: 'Join Newsletter',
   },
   linktree: {
-    title: 'Found us on Linktree',
+    title: 'All Links in One Place',
+    description: 'Access all our social media, episodes, and resources.',
     href: 'https://linktr.ee/youngandhungryk_12',
     label: 'Visit Linktree',
   },
