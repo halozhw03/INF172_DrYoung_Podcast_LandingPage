@@ -1,4 +1,5 @@
 import { site, headerIcons } from '../../data/content';
+import logoImage from '../../assets/Young&Hungary_Logo.webp';
 import { InstagramIcon, TikTokIcon, XIcon, NewsletterIcon } from './icons';
 import styles from './Header.module.css';
 
@@ -17,7 +18,10 @@ export function Header() {
     <header className={styles.header} role="banner">
       <div className={styles.container}>
         <a href="#" className={styles.logo} aria-label={`${site.title} - Home`}>
-          {site.title}
+          <span className={styles.logoMask}>
+            <img src={logoImage} alt="" className={styles.logoImage} />
+          </span>
+          <span className={styles.logoText}>{site.title}</span>
         </a>
         <nav className={styles.nav} aria-label="Social links">
           {headerIcons.map((item) => {
