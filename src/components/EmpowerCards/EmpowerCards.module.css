@@ -21,7 +21,7 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: var(--space-6);
-  max-width: 50rem;
+  max-width: 66rem;
   margin: 0 auto;
 }
 
@@ -34,7 +34,7 @@
 
 .card {
   perspective: 1000px;
-  min-height: 340px;
+  min-height: 480px;
 }
 
 .card.reducedMotion {
@@ -49,7 +49,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  min-height: 340px;
+  min-height: 480px;
   transform-style: preserve-3d;
 }
 
@@ -63,7 +63,7 @@
   border: 1px solid var(--color-border);
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
   background: var(--color-bg-card);
-  padding: var(--space-8);
+  padding: var(--space-10);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,7 +80,7 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  padding: var(--space-8);
+  padding: var(--space-10);
   overflow-y: auto;
 }
 
@@ -107,8 +107,8 @@
 }
 
 .frontImage {
-  width: 100px;
-  height: 100px;
+  width: 128px;
+  height: 128px;
   border-radius: 50%;
   background: var(--color-primary-light);
   display: flex;
@@ -119,11 +119,11 @@
 }
 
 .cardIcon {
-  font-size: 2.25rem;
+  font-size: 2.75rem;
 }
 
 .frontTitle {
-  font-size: var(--text-xl);
+  font-size: var(--text-2xl);
   font-weight: var(--font-bold);
   margin: 0 0 var(--space-3);
   color: var(--color-text);
@@ -133,8 +133,9 @@
 }
 
 .frontCta {
-  font-size: var(--text-sm);
-  color: var(--color-text-muted);
+  font-size: var(--text-base);
+  color: var(--color-text);
+  font-weight: var(--font-medium);
   margin: 0;
   line-height: 1.5;
   text-align: center;
@@ -168,10 +169,10 @@
 }
 
 .bullets li {
-  font-size: var(--text-sm);
-  line-height: 1.6;
-  color: var(--color-text-muted);
-  margin-bottom: var(--space-4);
+  font-size: var(--text-lg);
+  line-height: 1.8;
+  color: var(--color-text);
+  margin-bottom: var(--space-5);
 }
 
 .bullets li:last-child {

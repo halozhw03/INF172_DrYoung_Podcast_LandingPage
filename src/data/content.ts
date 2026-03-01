@@ -5,15 +5,15 @@
 
 export const site = {
   title: 'Young and Hungry K-12 Podcast',
-  tagline: 'Shall We Coexist?',
+  tagline: 'Shall We Coexist with AI?',
 } as const;
 
 export const hero = {
-  headline: 'Shall We Coexist?',
+  headline: 'Shall We Coexist with AI?',
   subheadline:
-    'A family podcast exploring AI, curiosity, and the future of learning.',
-  ctaText: 'Listen Now',
-  ctaHref: '#episodes',
+    'A podcast exploring how AI and education can grow together — for parents, teachers, and the next generation.',
+  ctaText: 'Join the waitlist',
+  ctaHref: 'https://uci.co1.qualtrics.com/jfe/form/SV_3TMvAyg2SEOFsI6',
   /** Replace with actual hero illustration path */
   illustrationPlaceholder: true,
 } as const;
