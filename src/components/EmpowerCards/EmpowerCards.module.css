@@ -30,6 +30,11 @@
     grid-template-columns: 1fr;
     gap: var(--space-6);
   }
+
+  .card,
+  .inner {
+    min-height: 560px;
+  }
 }
 
 .card {
@@ -81,7 +86,7 @@
   text-align: center;
   justify-content: center;
   padding: var(--space-10);
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 
 .card.reducedMotion .front,
