@@ -32,6 +32,72 @@ export const whoAreWe = {
   ],
 } as const;
 
+export const whyAiNowSection = {
+  title: 'Why Guided AI Exposure Matters Now',
+  intro:
+    'Children are already using AI. The question is not whether they should encounter it, but whether adults help them use it safely, critically, and productively.',
+  cards: [
+    {
+      id: 'sharedJob',
+      iconClass: 'fa-solid fa-brain',
+      title: 'A Shared Job for Home and School',
+      detail:
+        'Parents shape values and boundaries. Teachers shape academic integrity and learning habits. When guidance is aligned, children learn to use AI as a tool, not a shortcut.',
+      featured: true,
+    },
+    {
+      id: 'usageReality',
+      iconClass: 'fa-solid fa-chart-line',
+      stat: '70%',
+      title: 'Teens Have Already Tried Generative AI',
+      detail:
+        'In 2024, seven in ten U.S. teens reported using at least one type of generative AI tool.',
+    },
+    {
+      id: 'communicationGap',
+      iconClass: 'fa-solid fa-triangle-exclamation',
+      stat: '83%',
+      title: 'Families Report Limited School Guidance',
+      detail:
+        'Most parents say schools have not clearly communicated AI policies, creating mixed expectations for students.',
+    },
+    {
+      id: 'teacherAdoption',
+      iconClass: 'fa-solid fa-chalkboard-user',
+      stat: '6 in 10',
+      title: 'Teachers Are Already Using AI',
+      detail:
+        'Gallup reports most U.S. teachers used AI tools in the 2024–2025 school year, with weekly users saving about 5.9 hours.',
+    },
+    {
+      id: 'verificationHabits',
+      iconClass: 'fa-solid fa-magnifying-glass',
+      stat: '55% vs 43%',
+      title: 'Classroom Discussion Improves Verification Habits',
+      detail:
+        'Teens who discuss AI in class are more likely to check AI-generated information before trusting it.',
+    },
+  ],
+  sources: [
+    {
+      label: 'Common Sense Media (2024): Teens, Parents, and Generative AI',
+      href: 'https://www.commonsensemedia.org/research/teen-and-parent-perspectives-on-generative-ai',
+    },
+    {
+      label: 'Common Sense Media (2024): Findings Summary',
+      href: 'https://www.commonsensemedia.org/press-releases/new-report-reveals-what-teens-and-parents-think-about-generative-ai-in-education',
+    },
+    {
+      label: 'Gallup + Walton Family Foundation (2025)',
+      href: 'https://www.gallup.com/education/655768/teachers-say-ai-saves-time-but-few-use-weekly.aspx',
+    },
+    {
+      label: 'UNESCO (2023): Guidance for Generative AI in Education',
+      href: 'https://www.unesco.org/en/articles/unesco-releases-first-global-guidance-generative-ai-education-and-research',
+    },
+  ],
+} as const;
+
 export const empowerCards = {
   title: 'How the Podcast Empowers Listeners',
   frontCta: 'Click to see more',

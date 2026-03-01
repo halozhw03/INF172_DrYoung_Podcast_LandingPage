@@ -1,0 +1,300 @@
+.section {
+  padding: var(--space-10) 0 var(--space-20);
+  background: var(--color-bg);
+}
+
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+.title {
+  margin: 0 0 var(--space-4);
+  font-size: var(--text-3xl);
+  font-weight: var(--font-bold);
+  line-height: var(--leading-tight);
+  color: var(--color-text);
+  text-align: center;
+}
+
+.intro {
+  margin: 0 auto var(--space-10);
+  max-width: 52rem;
+  font-size: var(--text-lg);
+  line-height: 1.75;
+  color: var(--color-text);
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: var(--space-6);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-3);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .card {
+    transition: box-shadow var(--transition-base), transform var(--transition-fast);
+  }
+
+  .card:hover {
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+}
+
+.featured {
+  gap: var(--space-4);
+}
+
+.iconWrap {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 999px;
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+
+.stat {
+  margin: 0;
+  font-size: clamp(1.75rem, 3.5vw, 2.75rem);
+  line-height: 1.1;
+  font-weight: var(--font-bold);
+  color: var(--color-primary);
+  letter-spacing: -0.02em;
+}
+
+.cardTitle {
+  margin: 0;
+  font-size: var(--text-xl);
+  line-height: 1.35;
+  color: var(--color-text);
+  font-weight: var(--font-semibold);
+}
+
+.cardDetail {
+  margin: 0;
+  font-size: var(--text-base);
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+.featured .cardTitle {
+  font-size: var(--text-2xl);
+}
+
+.featured .cardDetail {
+  max-width: 44ch;
+}
+
+.featuredVisual {
+  margin-top: auto;
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid #d6e6ea;
+  background:
+    radial-gradient(circle at 90% 10%, rgba(26, 95, 110, 0.16), transparent 40%),
+    linear-gradient(145deg, #f5fbfc 0%, #eef6f8 100%);
+  padding: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.visualImageWrap {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #cddfe4;
+}
+
+.visualImage {
+  width: 100%;
+  height: 148px;
+  object-fit: cover;
+  display: block;
+}
+
+.visualTag {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid #d3e3e7;
+  border-radius: 999px;
+  padding: 0.3rem 0.65rem;
+  font-size: var(--text-sm);
+  font-weight: var(--font-semibold);
+  color: var(--color-primary);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.visualSteps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-3);
+}
+
+.visualStep {
+  border-radius: 12px;
+  border: 1px solid #cddfe4;
+  background: rgba(255, 255, 255, 0.85);
+  min-height: 84px;
+  padding: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-2);
+  text-align: center;
+}
+
+.visualStep i {
+  color: var(--color-primary);
+  font-size: 1.1rem;
+}
+
+.visualStep span {
+  font-size: var(--text-sm);
+  line-height: 1.35;
+  color: #244551;
+  font-weight: var(--font-medium);
+}
+
+.sharedJob {
+  grid-column: 1 / 8;
+  grid-row: 1 / 3;
+}
+
+.usageReality {
+  grid-column: 8 / 13;
+  grid-row: 1;
+}
+
+.communicationGap {
+  grid-column: 8 / 13;
+  grid-row: 2;
+}
+
+.teacherAdoption {
+  grid-column: 1 / 7;
+  grid-row: 3;
+}
+
+.verificationHabits {
+  grid-column: 7 / 13;
+  grid-row: 3;
+}
+
+.sources {
+  margin: var(--space-6) 0 0;
+  font-size: var(--text-sm);
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+.sources a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.sources a:hover {
+  color: var(--color-primary-hover);
+}
+
+@media (max-width: 1023px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sharedJob,
+  .usageReality,
+  .communicationGap,
+  .teacherAdoption,
+  .verificationHabits {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .sharedJob {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding: var(--space-8) 0 var(--space-16);
+  }
+
+  .title {
+    font-size: var(--text-2xl);
+  }
+
+  .intro {
+    margin-bottom: var(--space-6);
+    font-size: var(--text-base);
+    line-height: 1.65;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: var(--space-5);
+  }
+
+  .featured .cardTitle {
+    font-size: var(--text-xl);
+  }
+
+  .cardTitle {
+    font-size: var(--text-lg);
+  }
+
+  .cardDetail {
+    line-height: 1.6;
+  }
+
+  .featuredVisual {
+    padding: var(--space-4);
+  }
+
+  .visualTag {
+    font-size: var(--text-xs);
+  }
+
+  .visualImage {
+    height: 132px;
+  }
+
+  .visualSteps {
+    grid-template-columns: 1fr;
+  }
+
+  .visualStep {
+    min-height: 64px;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+  }
+}

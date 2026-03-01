@@ -1,6 +1,7 @@
 import { Header } from './components/Header/Header';
 import { Hero } from './components/Hero/Hero';
 import { WhoAreWe } from './components/WhoAreWe/WhoAreWe';
+import { WhyAiNow } from './components/WhyAiNow/WhyAiNow';
 import { EmpowerCards } from './components/EmpowerCards/EmpowerCards';
 import { HostProfiles } from './components/HostProfiles/HostProfiles';
 import { EpisodesList } from './components/EpisodesList/EpisodesList';
@@ -12,6 +13,7 @@ function App() {
       <main>
         <Hero />
         <WhoAreWe />
+        <WhyAiNow />
         <EmpowerCards />
         <HostProfiles />
         <EpisodesList />
