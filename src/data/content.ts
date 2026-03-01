@@ -81,19 +81,19 @@ export const whyAiNowSection = {
   sources: [
     {
       label: 'Common Sense Media (2024): Teens, Parents, and Generative AI',
-      href: 'https://www.commonsensemedia.org/research/teen-and-parent-perspectives-on-generative-ai',
+      href: 'https://www.commonsensemedia.org/press-releases/new-report-shows-students-are-embracing-artificial-intelligence-despite-lack-of-parent-awareness-and',
     },
     {
       label: 'Common Sense Media (2024): Findings Summary',
-      href: 'https://www.commonsensemedia.org/press-releases/new-report-reveals-what-teens-and-parents-think-about-generative-ai-in-education',
+      href: 'https://www.commonsensemedia.org/sites/default/files/research/report/2024-the-dawn-of-the-ai-era_final-release-for-web.pdf',
     },
     {
       label: 'Gallup + Walton Family Foundation (2025)',
-      href: 'https://www.gallup.com/education/655768/teachers-say-ai-saves-time-but-few-use-weekly.aspx',
+      href: 'https://www.gallup.com/analytics/651674/gen-z-research.aspx',
     },
     {
       label: 'UNESCO (2023): Guidance for Generative AI in Education',
-      href: 'https://www.unesco.org/en/articles/unesco-releases-first-global-guidance-generative-ai-education-and-research',
+      href: 'https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research',
     },
   ],
 } as const;
