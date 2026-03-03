@@ -3,11 +3,9 @@ import aiClassroomImage from '../../assets/ai-classroom-pexels-5676748.jpg';
 import styles from './WhyAiNow.module.css';
 
 const layoutClassMap: Record<string, string> = {
-  sharedJob: styles.sharedJob,
   usageReality: styles.usageReality,
   communicationGap: styles.communicationGap,
   teacherAdoption: styles.teacherAdoption,
-  verificationHabits: styles.verificationHabits,
 };
 
 export function WhyAiNow() {

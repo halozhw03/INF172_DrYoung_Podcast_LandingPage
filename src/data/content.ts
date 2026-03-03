@@ -38,14 +38,6 @@ export const whyAiNowSection = {
     'Children are already using AI. The question is not whether they should encounter it, but whether adults help them use it safely, critically, and productively.',
   cards: [
     {
-      id: 'sharedJob',
-      iconClass: 'fa-solid fa-brain',
-      title: 'A Shared Job for Home and School',
-      detail:
-        'Parents shape values and boundaries. Teachers shape academic integrity and learning habits. When guidance is aligned, children learn to use AI as a tool, not a shortcut.',
-      featured: true,
-    },
-    {
       id: 'usageReality',
       iconClass: 'fa-solid fa-chart-line',
       stat: '70%',
@@ -69,14 +61,6 @@ export const whyAiNowSection = {
       detail:
         'Gallup reports most U.S. teachers used AI tools in the 2024–2025 school year, with weekly users saving about 5.9 hours.',
     },
-    {
-      id: 'verificationHabits',
-      iconClass: 'fa-solid fa-magnifying-glass',
-      stat: '55% vs 43%',
-      title: 'Classroom Discussion Improves Verification Habits',
-      detail:
-        'Teens who discuss AI in class are more likely to check AI-generated information before trusting it.',
-    },
   ],
   sources: [
     {
@@ -90,10 +74,6 @@ export const whyAiNowSection = {
     {
       label: 'Gallup + Walton Family Foundation (2025)',
       href: 'https://www.gallup.com/analytics/651674/gen-z-research.aspx',
-    },
-    {
-      label: 'UNESCO (2023): Guidance for Generative AI in Education',
-      href: 'https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research',
     },
   ],
 } as const;
