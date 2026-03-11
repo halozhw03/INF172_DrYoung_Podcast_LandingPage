@@ -13,8 +13,8 @@ function App() {
       <main>
         <Hero />
         <WhoAreWe />
-        <WhyAiNow />
         <EmpowerCards />
+        <WhyAiNow />
         <HostProfiles />
         <EpisodesList />
       </main>

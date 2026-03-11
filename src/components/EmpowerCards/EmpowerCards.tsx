@@ -110,14 +110,18 @@ function FlipCard({
       onClick={toggle}
       onKeyDown={handleKeyDown}
     >
-      <div ref={innerRef} className={styles.inner}>
+        <div ref={innerRef} className={styles.inner}>
         <div ref={frontRef} className={styles.front}>
           <div className={styles.frontContent}>
             <div className={styles.frontImage}>
               <i className={`${frontIconClass} ${styles.cardIcon}`} aria-hidden />
             </div>
             <h3 className={styles.frontTitle}>{frontTitle}</h3>
-            <p className={styles.frontCta}>{frontCta}</p>
+            <p className={styles.frontCta}>Tap or click to explore how the podcast helps {frontTitle.toLowerCase()}.</p>
+            <div className={styles.flipHint} aria-hidden>
+              <i className={`fa-solid fa-rotate ${styles.flipHintIcon}`} />
+              <span>{frontCta}</span>
+            </div>
           </div>
         </div>
         <div ref={backRef} className={styles.back}>
@@ -128,6 +132,10 @@ function FlipCard({
                 <li key={i}>{bullet}</li>
               ))}
             </ul>
+            <div className={styles.flipHint} aria-hidden>
+              <i className={`fa-solid fa-rotate-left ${styles.flipHintIcon}`} />
+              <span>Flip back</span>
+            </div>
           </div>
         </div>
       </div>
