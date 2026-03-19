@@ -156,20 +156,20 @@ export const episodes = {
   items: [
     {
       id: 'ep1',
-      title: 'Placeholder 1',
-      date: 'MM/DD/YYYY',
+      title: 'New Resources for Teaching AI',
+      date: '2/13/2025',
       linkPlaceholder: '#',
     },
     {
       id: 'ep2',
-      title: 'Placeholder 2',
-      date: 'MM/DD/YYYY',
+      title: 'Guest Speaker knows Everything about AI or Do They?',
+      date: '2/12/2025',
       linkPlaceholder: '#',
     },
     {
       id: 'ep3',
-      title: 'Placeholder 3',
-      date: 'MM/DD/YYYY',
+      title: 'Leading AI Innovation could change Teaching for Good',
+      date: '2/11/2025',
       linkPlaceholder: '#',
     },
   ],
